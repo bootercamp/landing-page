@@ -1,26 +1,20 @@
 {
-  "name": "landing-page",
+  "name": "simple-tailwind-starter",
   "version": "1.0.0",
-  "description": "booter Landing Page",
+  "description": "Simple file structure for Tailwind projects",
   "main": "index.js",
   "scripts": {
     "watch": "tailwindcss -i ./input.css -o ./css/style.css --watch",
     "build": "tailwindcss -i ./input.css -o ./css/style.css"
   },
-  "author": "Brad Traversy", // booter 라이센스가 필요할 것 같아요. 
+  "author": "Brad Traversy",
   "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.0.24"
   },
   "dependencies": {
-    "firebase": "^9.12.1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bootercamp/landing-page.git"
-  },
-  "bugs": {
-    "url": "https://github.com/bootercamp/landing-page/issues"
-  },
-  "homepage": "https://github.com/bootercamp/landing-page#readme"
+    "@babel/core": "^7.19.3",
+    "firebase": "^9.12.1",
+    "firebase-admin": "^11.2.0"
+  }
 }
