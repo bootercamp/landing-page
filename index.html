@@ -82,10 +82,10 @@
           <!-- Panel Image -->
           <div class="flex justify-center mb-8 md:mb-0 md:w-1/2">
             <!-- Image -->
-            <div class="relative hidden md:block md:m-auto">
-              <img src="images/panel_01.svg" alt="" class="z-10">
-              <img src="images/panel_03_1.svg" alt="" class="absolute -right-8 -top-12 z-10 md:-right-14">
-              <img src="images/panel_03_2.svg" alt="" class="absolute left-0 bottom-0 z-10">
+            <div class="relative md:m-auto">
+              <img src="images/panel_01.svg" alt="" class="z-10 w-1/2 md:w-full mx-auto">
+              <img src="images/panel_03_1.svg" alt="" class="absolute -right-8 -top-12 z-10 md:-right-14 hidden md:block">
+              <img src="images/panel_03_2.svg" alt="" class="absolute left-0 bottom-0 z-10 hidden md:block">
             </div>
           </div>
           <!-- Panel Content -->
@@ -105,10 +105,10 @@
           <!-- Panel Image -->
           <div class="flex justify-center mb-8 md:mb-0 md:w-1/2">
             <!-- Image -->
-            <div class="relative hidden md:block md:m-auto">
-              <img src="images/panel_02.svg" alt="" class="z-10">
-              <img src="images/panel_03_1.svg" alt="" class="absolute -right-8 -top-12 z-10 md:-right-14">
-              <img src="images/panel_03_2.svg" alt="" class="absolute left-0 bottom-0 z-10">
+            <div class="relative md:m-auto">
+              <img src="images/panel_02.svg" alt="" class="z-10 w-1/2 md:w-full mx-auto">
+              <img src="images/panel_03_1.svg" alt="" class="absolute -right-8 -top-12 z-10 md:-right-14 hidden md:block">
+              <img src="images/panel_03_2.svg" alt="" class="absolute left-0 bottom-0 z-10 hidden md:block">
             </div>
           </div>
           <!-- Panel Content -->
@@ -127,10 +127,10 @@
           <!-- Panel Image -->
           <div class="flex justify-center mb-8 md:mb-0 md:w-1/2">
             <!-- Image -->
-            <div class="relative hidden md:block md:m-auto">
-              <img src="images/panel_03.svg" alt="" class="z-10">
-              <img src="images/panel_03_1.svg" alt="" class="absolute -right-8 -top-12 z-10 md:-right-14">
-              <img src="images/panel_03_2.svg" alt="" class="absolute left-0 bottom-0 z-10">
+            <div class="relative md:m-auto">
+              <img src="images/panel_03.svg" alt="" class="z-10 w-1/2 md:w-full mx-auto">
+              <img src="images/panel_03_1.svg" alt="" class="absolute -right-8 -top-12 z-10 md:-right-14 hidden md:block">
+              <img src="images/panel_03_2.svg" alt="" class="absolute left-0 bottom-0 z-10 hidden md:block">
             </div>
           </div>
           <!-- Panel Content -->
@@ -280,7 +280,7 @@
             <!-- Tab Inner Conent -->
             <div class="overflow-hidden transition duration-150 group-focus:max-h-screen max-h-0 ease">
               <p class="py-2 text-justify text-btBk60 text-sm md:text-base">
-                로컬 기반 서비스인 만큼 양질의 서비스를 제공해드리기 위해 소규모의 지역에서 서비스를 진행하고 있습니다. 현재 부산에서만 시범 운영 중입니다. 
+                로컬 기반 서비스인 만큼 양질의 서비스를 제공해드리기 위해 소규모의 지역에서만 서비스를 진행하고 있습니다. 상기 언급한 대로 부산에서 시범 운영 후 전국적으로 확대될 예정입니다. 
               </p>
             </div>
           </div>
@@ -307,7 +307,7 @@
             <!-- Tab Inner Conent -->
             <div class="overflow-hidden transition duration-150 group-focus:max-h-screen max-h-0 ease">
               <p class="py-2 text-justify text-btBk60 text-sm md:text-base">
-                현재는 iOS만 사용 가능합니다.
+                둘 다 사용 가능합니다.
               </p>
             </div>
           </div>
@@ -333,10 +333,9 @@
             </div>
             <!-- Tab Inner Conent -->
             <div class="overflow-hidden transition duration-150 group-focus:max-h-screen max-h-0 ease">
-              <p class="py-2 text-justify text-btBk60 text-sm md:text-base">
-                어플을 시작할 때 받는 위치정보 중 부산으로 표시되는 유저들에 한해서 시범적으로 운영 중입니다. 부산 이외의 지역이라면 어플에 접속이 불가능합니다. 이외의 문제라면 아래의 공식계정을 통해 문의해주십시오.
-                <br>
-                <span class="text-xs">공식 인스타그램: @bootercamp</span>
+              <a class="py-2 text-justify text-btBk60 text-sm md:text-base">
+                어플을 시작할 때 받는 위치정보 중 부산으로 표시되는 유저들에 한해서 시범적으로 운영 중입니다. 
+                부산 이외의 지역이라면 어플에 접속이 불가능합니다. 이외의 문제라면 아래의 공식계정을 통해 문의해주십시오.
               </p>
             </div>
           </div>
@@ -357,21 +356,12 @@
         </h2>
 
         <!-- Form -->
-        <form id="submit-form"
-        class="flex flex-col items-start justify-center mx-w-2xl mx-auto space-y-6 text-base px-6 md:flex-row md:space-y-0 md:space-x-4 md:px-0">
-          <!-- Input & Button Container -->
-          <div class="flex flex-col justify-between items-center mx-auto md:flex-row md:mx-0">
-            <input
-              type="email" 
-              class="flex-1 px-6 pt-3 pb-3 mb-4 w-full rounded-lg border-1 border-white focus:outline-none md:mr-3 md:mb-0"
-              placeholder="이메일을 입력해주세요">
-
-              <button 
-              type="submit"
-              class="inline-flex px-6 py-3 font-semibold text-center text-btBk border border-black duration-150 transform rounded-lg cursor-pointer focus:outline-none hover:bg-btBk hover:text-white" 
-              >제출하기</button>
-          </div>
-        </form>
+        <a href="https://forms.gle/Q48obSxKjPtzz9Pd9" target="_blank">
+          <button class="flex mx-auto px-6 py-3 
+          font-semibold text-center text-btBk border border-black duration-150 
+          transform rounded-lg cursor-pointer 
+          focus:outline-none hover:bg-btBk hover:text-white">제출하기</button>
+        </a>
       </div>
     </section>
     
@@ -392,7 +382,7 @@
           </div>
           <!-- SNS -->
           <div class="flex items-end mt-4 md:mt-0">
-            <a href="http://instagram.com/bootercamp/" target="_blank"><img src="images/icon_instagram.svg" alt="" class="w-6 h-6 opacity-50 ficon"></a>
+            <a href="ç" target="_blank"><img src="images/icon_instagram.svg" alt="" class="w-6 h-6 opacity-50 ficon"></a>
           </div>
         </div>
       </div>
@@ -400,40 +390,6 @@
     
     <!-- JavaScript -->
     <script src="js/script.js"></script>
-    <script type="module" src="js/firebase.js"></script>
-    
 
-    <!-- firebase -->
-    <!-- <script>
-      
-      function 
-      
-      const firebaseConfig = {
-        apiKey: "AIzaSyB3hmzTeIJJn10zX1NOaHkbbuL3QTQwKQY",
-        authDomain: "booter-48243.firebaseapp.com",
-        projectId: "booter-48243",
-        storageBucket: "booter-48243.appspot.com",
-        messagingSenderId: "119279767120",
-        appId: "1:119279767120:web:388364b35d152e6b6f4b55",
-        measurementId: "G-LKL8Z2CXTJ"
-      };
-
-
-      const app = initializeApp(firebaseConfig);
-      // const db = firebase.firestore(app);
-      const db = getFirestore(app);
-
-
-
-      async function subscriptionEmail (e) {
-      var email = document.getElementById('email');
-      
-      db.collection("cities").doc("new-city-id").set('test');
-      
-      console.log("Document written with ID: ", docRef.id);
-    }
-    </script> -->
-
-    
   </body>
 </html>
